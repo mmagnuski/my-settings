@@ -35,7 +35,7 @@
 # http://fossies.org/linux/atom/keymaps/win32.cson
 
 # insert mode
-'atom-text-editor.vim-mode:not(.insert-mode)':
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   'ctrl-alt-j': 'editor:add-selection-below'
   'ctrl-alt-k': 'editor:add-selection-above'
   'ctrl-d': 'find-and-replace:select-next'
@@ -44,7 +44,7 @@
   'ctrl-f': 'find-and-replace:show'
 
 # vim mode (visual, normal)
-'atom-text-editor.vim-mode':
+'atom-text-editor.vim-mode-plus':
   'ctrl-alt-j': 'editor:add-selection-below'
   'ctrl-alt-k': 'editor:add-selection-above'
   'ctrl-shift-j': 'editor:move-line-down'
@@ -53,15 +53,15 @@
   'ctrl-c': 'core:copy'
   'ctrl-v': 'core:paste'
 
-'atom-text-editor.vim-mode:not(.normal-mode)':
+'atom-text-editor.vim-mode-plus:not(.normal-mode)':
   'ctrl-[': 'editor:outdent-selected-rows'
 
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   'ctrl-v': 'core:paste'
   'ctrl-a': 'core:select-all'
   'ctrl-]': 'editor:indent-selected-rows'
 
-'atom-text-editor.vim-mode.visual-mode':
+'atom-text-editor.vim-mode-plus.visual-mode':
   'ctrl-v': 'core:paste'
 
 'body':
